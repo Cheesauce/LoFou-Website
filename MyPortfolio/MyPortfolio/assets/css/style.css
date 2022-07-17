@@ -449,3 +449,14 @@ h1, h2, h3, h4, h5, h6, .font-heading {
 .social a:hover {
   color: #000;
 }
+
+
+
+.logo_main{
+  height: 150px;
+  width: 300px;
+}
+
+.image_logo{
+  padding-left: 75px;
+}
