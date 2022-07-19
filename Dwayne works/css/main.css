@@ -198,7 +198,7 @@ iframe {
 }
 
 .login100-pic img {
-  max-width: 100%;
+  max-width: 135%;
 }
 
 
@@ -379,7 +379,7 @@ iframe {
   }
 
   .login100-pic {
-    display: none;
+    display: flex;
   }
 
   .login100-form {
