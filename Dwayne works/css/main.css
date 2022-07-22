@@ -334,7 +334,7 @@ iframe {
   width: 100%;
   height: 50px;
   border-radius: 25px;
-  background: #312cba;
+  background: #ff1616;
   display: -webkit-box;
   display: -webkit-flex;
   display: -moz-box;
@@ -351,7 +351,7 @@ iframe {
 }
 
 .login100-form-btn:hover {
-  background: #333333;
+  background: #229665;
 }
 
 
