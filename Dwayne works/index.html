@@ -49,9 +49,20 @@
 						<span class="symbol-input100">
 							<i class="fa fa-lock" aria-hidden="true"></i>
 						</span>
-						<span class="symbol-input200">
-							<i class="fa fa-eye" aria-hidden="true"></i>
-						</span>
+					</div>
+
+					<div class="text-center p-t-12">
+						<input type="checkbox" onclick="myFunction()">Show Password
+						<script>
+							function myFunction() {
+							  var x = document.getElementById("pass");
+							  if (x.type === "pass") {
+								x.type = "text";
+							  } else {
+								x.type = "password";
+							  }
+							}
+						</script>
 					</div>
 					
 					<div class="container-login100-form-btn">
