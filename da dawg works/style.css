@@ -16,7 +16,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    background: #15df7a;
+    background: #4070f4;
 }
 
 .container{
@@ -45,7 +45,7 @@ body{
     height: 3px;
     width: 30px;
     border-radius: 8px;
-    background-color: #15df7a;
+    background-color: #4070f4;
 }
 
 .container form {
