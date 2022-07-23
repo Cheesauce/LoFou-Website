@@ -49,19 +49,23 @@
 						<span class="symbol-input100">
 							<i class="fa fa-lock" aria-hidden="true"></i>
 						</span>
+						<span class="symbol-input200">
+							<i class="fa fa-eye" id="togglePassword" style="margin-left: 210px; cursor: pointer;"></i>
+						</span>
 					</div>
 
 					<div class="text-center p-t-12">
-						<input type="checkbox" onclick="myFunction()">Show Password
 						<script>
-							function myFunction() {
-							  var x = document.getElementById("pass");
-							  if (x.type === "password") {
-								x.type = "text";
-							  } else {
-								x.type = "password";
-							  }
-							}
+							const togglePassword = document.querySelector('#togglePassword');
+ 								 const password = document.querySelector('#pass');
+
+  								togglePassword.addEventListener('click', function (e) {
+    								// toggle the type attribute
+    								const type = password.getAttribute('type') === 'password' ? 'text' : 'password';
+    								password.setAttribute('type', type);
+    								// toggle the eye slash icon
+    								this.classList.toggle('fa-eye-slash');
+									});
 						</script>
 					</div>
 					
