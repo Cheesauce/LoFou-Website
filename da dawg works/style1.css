@@ -7,6 +7,10 @@
     font-family: 'Poppins', sans-serif;
 }
 
+.wrapper{
+    width: 100%;
+}
+
 body{
     min-height: 100vh;
     display: flex;
@@ -25,6 +29,8 @@ body{
     margin: 0 15px;
     box-shadow: 0 5px 10px rgba(0,0,0,1);
 }
+
+
 
 .inl header{
     position: relative;
@@ -47,14 +53,14 @@ body{
     background-color: #4070f4;
 }
 
-.inl label{
+.inl .field label{
     font-size: 18;
     font-weight: 1000;
-    margin-left: 20px;
+ 
     
 }
 
-.inl input{
+.inl .field input{
     text-align: center;
     font-size: 16px;
     font-weight: 500;
@@ -68,6 +74,23 @@ body{
     
 }
 
+.container .btn0{
+    height: 40px;
+    max-width: 150px;
+    border-radius: 5px;
+    width: 100%; 
+    border: none;
+    outline: none;
+    color: #fff;
+    background-color: #4070f4;
+}
+
+.inl .field{
+    display: inline-block;
+    
+}
+
+
 table{
     width: 100%;
     color: black;
@@ -76,7 +99,6 @@ table{
     margin-top: 25px;
     border-spacing: 0px;
     padding: 0px;
-  
     box-shadow: 0 5px 10px rgba(0,0,0,1);
 }
 
@@ -111,19 +133,6 @@ table img{
     
 }
 
-.container .btn0{
-    height: 40px;
-    max-width: 150px;
-    border-radius: 5px;
-    width: 100%; 
-    border: none;
-    outline: none;
-    color: #fff;
-    background-color: #4070f4;
-    position: absolute;
-    right: 60px;
-    top: 75px;
-}
 
 
 .container .btn{
@@ -142,3 +151,23 @@ table img{
     margin: auto;
     margin-top: 25px;
 }
+
+
+@media (max-width: 750px) {
+
+
+    .container {
+        overflow-y: scroll;
+        overflow-x: scroll;
+    }
+    .container ::-webkit-scrollbar{
+       display: none;
+    }
+    table {
+        width: calc(100% / 2 - 15px);
+    }
+    .container .btn{
+        width: 100;
+    }
+}
+
