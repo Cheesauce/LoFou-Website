@@ -36,6 +36,17 @@ body{
     margin-bottom: 25px;
 }
 
+.container header::before{
+    content: "";
+    position: absolute;
+    left: 49;
+    bottom: -2px;
+    height: 3px;
+    width: 135px;
+    border-radius: 8px;
+    background-color: #4070f4;
+}
+
 .inl label{
     font-size: 18;
     font-weight: 1000;
@@ -50,10 +61,11 @@ body{
     outline: none;
     color: #333;
     border: 1px solid #aaa;
-    width: 25%;
+    width: 23%;
     box-sizing: none;
     border: none;
     border-bottom: 1px solid;
+    
 }
 
 table{
@@ -74,13 +86,14 @@ table #input{
 }
 
 td{
-    border-left: none;
-    border-right: none;
-    border-top: none;
-    border-bottom: none;
+    border: none;
     text-align: center;
     padding: 10px;
     
+}
+
+tr:nth-child(1){
+    font-weight: 1000;
 }
 
 tr:nth-child(odd){
@@ -95,4 +108,37 @@ table img{
     height: 2em;
     width: 2em;
     border-radius: 50px;
+    
+}
+
+.container .btn0{
+    height: 40px;
+    max-width: 150px;
+    border-radius: 5px;
+    width: 100%; 
+    border: none;
+    outline: none;
+    color: #fff;
+    background-color: #4070f4;
+    position: absolute;
+    right: 60px;
+    top: 75px;
+}
+
+
+.container .btn{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    max-width: 150px;
+    border-radius: 5px;
+    width: 100%; 
+    border: none;
+    outline: none;
+    color: #fff;
+    background-color: #4070f4;
+    margin: auto;
+    margin-top: 25px;
 }
