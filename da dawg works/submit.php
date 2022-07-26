@@ -27,7 +27,7 @@
                         </div>
                         <div class="input-field">
                             <label>Date the Subject Lost</label>
-                            <input type="date" placeholder="Enter Date" id="Date" name="Date">
+                            <input type="date" placeholder="Enter Date" id="Date" name="Date" required>
                         </div>
                         <div class="input-field">
                             <label>Lost Subject's Location/Place</label>
@@ -43,7 +43,7 @@
                         </div>
                         <div class="input-field">
                             <label>Subject's category</label>
-                            <select name="Category">    
+                            <select name="Category" required>    
                                 <option value="Devices"  id="Device">Devices</option>
                                 <option value="Objects"  id="Object">Objects</option>
                                 <option value="Animals"  id="Device">Animals</option>
@@ -61,7 +61,7 @@
                     </div>
 
                     <button>
-                        <span class="btnText" >Submit</span>
+                        <input class="btnText" name="found-submit">Submit
                         <i class="uil uil-navigator"></i>
                     </button>
                 </div>
