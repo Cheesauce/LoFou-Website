@@ -15,7 +15,7 @@
     <div class="container">
         <header>Submit Form</header>
 
-        <form action="#">
+        <form action="connect.php" method="post">
             <div class="first">
                 <div class="details">
                     <span class="title">Lost Subject's Details</span>
@@ -23,46 +23,45 @@
                     <div class="fields">
                         <div class="input-field">
                             <label>Lost Subject's Name</label>
-                            <input type="text" placeholder="Enter Name" required>
+                            <input type="text" placeholder="Enter Name" id="ObjectName" name="ObjectName" required>
                         </div>
                         <div class="input-field">
                             <label>Date the Subject Lost</label>
-                            <input type="date" placeholder="Enter Date" required>
+                            <input type="date" placeholder="Enter Date" id="Date" name="Date">
                         </div>
                         <div class="input-field">
                             <label>Lost Subject's Location/Place</label>
-                            <input type="text" placeholder="Enter Location/Place" required>
+                            <input type="text" placeholder="Enter Location/Place" id="Location" name="Location" required>
                         </div>
                         <div class="input-field">
                             <label>Contact Number</label>
-                            <input type="number" placeholder="Enter Contact Number" required>
+                            <input type="number" placeholder="Enter Contact Number" id="Contact" name="Contact" required>
                         </div>
                         <div class="input-field">
                             <label>Email</label>
-                            <input type="text" placeholder="Enter Email" required>
+                            <input type="text" placeholder="Enter Email" id="Email" name="Email" required>
                         </div>
                         <div class="input-field">
                             <label>Subject's category</label>
-                            <select>
-                                <option value="shoes">Shoes</option>
-                                <option value="jewelry">Jewelry</option>
-                                <option value="gadget">Jewelry</option>
-                                <option value="bags">Bags</option>
-                                <option value="person">Person</option>
+                            <select name="Category">    
+                                <option value="Devices"  id="Device">Devices</option>
+                                <option value="Objects"  id="Object">Objects</option>
+                                <option value="Animals"  id="Device">Animals</option>
+                                <option value="Person"  id="Person">Person</option>
                               </select>
                         </div>
                         <div class="desc">
                             <label>Subject's Description:</label>
-                            <input type="text" placeholder="Enter Description" required>
+                            <input type="text" placeholder="Enter Description" id="Note" name="Note" required>
                         </div>
                         <div class="desc1">
                             <label>Subject's Photo:</label>
-                            <input id="desc1" type="file" placeholder="Upload Photo" required>
+                            <input  type="file" placeholder="Upload Photo" id="desc1" name="Image" >
                         </div>
                     </div>
 
                     <button>
-                        <span class="btnText">Submit</span>
+                        <span class="btnText" >Submit</span>
                         <i class="uil uil-navigator"></i>
                     </button>
                 </div>
