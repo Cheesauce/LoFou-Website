@@ -7,6 +7,10 @@
     font-family: 'Poppins', sans-serif;
 }
 
+.wrapper{
+    width: 100%;
+}
+
 body{
     min-height: 100vh;
     display: flex;
@@ -26,6 +30,8 @@ body{
     box-shadow: 0 5px 10px rgba(0,0,0,1);
 }
 
+
+
 .inl header{
     position: relative;
     font-size: 20px;
@@ -36,25 +42,54 @@ body{
     margin-bottom: 25px;
 }
 
-.inl label{
+.container header::before{
+    content: "";
+    position: absolute;
+    left: 49;
+    bottom: -2px;
+    height: 3px;
+    width: 135px;
+    border-radius: 8px;
+    background-color: #4070f4;
+}
+
+.inl .field label{
     font-size: 18;
     font-weight: 1000;
-    margin-left: 20px;
+ 
     
 }
 
-.inl input{
+.inl .field input{
     text-align: center;
     font-size: 16px;
     font-weight: 500;
     outline: none;
     color: #333;
     border: 1px solid #aaa;
-    width: 25%;
+    width: 23%;
     box-sizing: none;
     border: none;
     border-bottom: 1px solid;
+    
 }
+
+.container .btn0{
+    height: 40px;
+    max-width: 150px;
+    border-radius: 5px;
+    width: 100%; 
+    border: none;
+    outline: none;
+    color: #fff;
+    background-color: #4070f4;
+}
+
+.inl .field{
+    display: inline-block;
+    
+}
+
 
 table{
     width: 100%;
@@ -64,7 +99,6 @@ table{
     margin-top: 25px;
     border-spacing: 0px;
     padding: 0px;
-  
     box-shadow: 0 5px 10px rgba(0,0,0,1);
 }
 
@@ -74,13 +108,14 @@ table #input{
 }
 
 td{
-    border-left: none;
-    border-right: none;
-    border-top: none;
-    border-bottom: none;
+    border: none;
     text-align: center;
     padding: 10px;
     
+}
+
+tr:nth-child(1){
+    font-weight: 1000;
 }
 
 tr:nth-child(odd){
@@ -95,4 +130,44 @@ table img{
     height: 2em;
     width: 2em;
     border-radius: 50px;
+    
 }
+
+
+
+.container .btn{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    max-width: 150px;
+    border-radius: 5px;
+    width: 100%; 
+    border: none;
+    outline: none;
+    color: #fff;
+    background-color: #4070f4;
+    margin: auto;
+    margin-top: 25px;
+}
+
+
+@media (max-width: 750px) {
+
+
+    .container {
+        overflow-y: scroll;
+        overflow-x: scroll;
+    }
+    .container ::-webkit-scrollbar{
+       display: none;
+    }
+    table {
+        width: calc(100% / 2 - 15px);
+    }
+    .container .btn{
+        width: 100;
+    }
+}
+

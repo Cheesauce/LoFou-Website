@@ -76,17 +76,39 @@
 					</span>
 
 					<div class="wrap-input100 validate-input" data-validate = "Password is required">
-						<input class="input100" type="password" name="pass" placeholder="Input Password.....">
+						<input class="input100" type="password" id="pass" placeholder="Input Password.....">
 						<span class="focus-input100"></span>
+						<span class="focus-input100"></span>
+						<span class="symbol-input300">
+							<i class="fa fa-eye-slash" id="togglePassword" style="margin-left: 210px; cursor: pointer;"></i>
+						</span>
 					</div>
-
+					
 					<span class="login100-form-text">
 						Confirm Password:
 					</span>
 
 					<div class="wrap-input100 validate-input" data-validate = "Password is required">
-						<input class="input100" type="password" name="confirm" placeholder="Input Confirm Password.....">
+						<input class="input100" type="password" id="pass" placeholder="Input Confirm Password.....">
 						<span class="focus-input100"></span>
+						<span class="symbol-input300">
+							<i class="fa fa-eye-slash" id="togglePassword" style="margin-left: 210px; cursor: pointer;"></i>
+						</span>
+					</div>
+
+					<div class="text-center p-t-12">
+						<script>
+							const togglePassword = document.querySelector('#togglePassword');
+ 								 const password = document.querySelector('#pass');
+
+  								togglePassword.addEventListener('click', function (e) {
+    								// toggle the type attribute
+    								const type = password.getAttribute('type') === 'password' ? 'text' : 'password';
+    								password.setAttribute('type', type);
+    								// toggle the eye slash icon
+    								this.classList.toggle('fa-eye');
+									});
+						</script>
 					</div>
 
 					<div class="text-center p-t-12">
@@ -115,6 +137,7 @@
 							<i class="fa fa-long-arrow-right m-l-5" aria-hidden="true"></i>
 						</a>
 					</div>
+
 				</form>
 			</div>
 		</div>
