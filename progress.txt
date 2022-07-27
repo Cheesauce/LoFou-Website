@@ -13,7 +13,7 @@ Thank you for your cooperation have a great day!
 
 --------------------------------------------------------------
 Denne 
-July 6, 2022
+July 26, 2022
 
 File: da dawg works\submit.php
 changes: added a name for div part in form clause
