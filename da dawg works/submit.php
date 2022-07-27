@@ -15,7 +15,7 @@
     <div class="container">
         <header>Submit Form</header>
 
-        <form action="formconnect.php" method="post">
+        <form action="connect.php" method="post">
             <div class="first">
                 <div class="details">
                     <span class="title">Lost Subject's Details</span>
