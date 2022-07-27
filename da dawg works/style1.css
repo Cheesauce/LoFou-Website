@@ -82,14 +82,18 @@ body{
     border: none;
     outline: none;
     color: #fff;
-    background-color: #4070f4;
+    background-color: #4070f4;   
 }
 
-.inl .field{
-    display: inline-block;
+.nav {
+    text-align: center;
+}
+
+.nav li{
+    display: inline;
+    padding: 20px;
     
 }
-
 
 table{
     width: 100%;
@@ -101,6 +105,7 @@ table{
     padding: 0px;
     box-shadow: 0 5px 10px rgba(0,0,0,1);
 }
+
 
 
 table #input{
@@ -153,8 +158,7 @@ table img{
 }
 
 
-@media (max-width: 750px) {
-
+@media (max-width: 700px) {
 
     .container {
         overflow-y: scroll;
@@ -169,5 +173,9 @@ table img{
     .container .btn{
         width: 100;
     }
+    
+    .nav li{
+        display: inline;
+        
+    }
 }
-
