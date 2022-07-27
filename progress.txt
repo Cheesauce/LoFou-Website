@@ -21,3 +21,9 @@ changes: added a name for div part in form clause
 File: da dawg works\connect.php
 changes: made a php file for getting info from submit.php form
 --------------------------------------------------------------
+Emman
+July 27, 2022
+
+File:\Lofou\da dawg works\leaderboard.html
+changes: added a few button, fixed the responsiveness of the table
+------------------------------------------------------------------
