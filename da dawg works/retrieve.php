@@ -15,7 +15,7 @@
     <div class="container">
         <header>Retrieve Form</header>
 
-        <form action="#">
+        <form action="connect.php" action="post">
             <div class="first">
                 <div class="details">
                     <span class="title">Retrieve Subject's Details</span>
@@ -23,46 +23,45 @@
                     <div class="fields">
                         <div class="input-field">
                             <label>Retrieve Subject's Name</label>
-                            <input type="text" placeholder="Enter Name" required>
+                            <input type="text" placeholder="Enter Name" id="FObjectName" name="FObjectName" required>
                         </div>
                         <div class="input-field">
                             <label>Date the Subject Found</label>
-                            <input type="date" placeholder="Enter Date" required>
+                            <input type="date" placeholder="Enter Date" id="FDate" name="FDate" required>
                         </div>
                         <div class="input-field">
                             <label>Retrieve Subject's Location/Place</label>
-                            <input type="text" placeholder="Enter Location/Place" required>
+                            <input type="text" placeholder="Enter Location/Place" id="FLocation" name="FLocation" required>
                         </div>
                         <div class="input-field">
                             <label>Contact Number</label>
-                            <input type="number" placeholder="Enter Contact Number" required>
+                            <input type="number" placeholder="Enter Contact Number" id="FContact" name="FContact" required>
                         </div>
                         <div class="input-field">
                             <label>Email</label>
-                            <input type="text" placeholder="Enter Email" required>
+                            <input type="text" placeholder="Enter Email" id="FEmail" id="FEmail" name="FEmail" required>
                         </div>
                         <div class="input-field">
                             <label>Retrieve Subject's category</label>
-                            <select>
-                                <option value="shoes">Shoes</option>
-                                <option value="jewelry">Jewelry</option>
-                                <option value="gadget">Jewelry</option>
-                                <option value="bags">Bags</option>
+                            <select name="FCategory" id="FCategory" required>
+                                <option value="device">Device</option>
+                                <option value="object">Object</option>
+                                <option value="animal">Animal</option>
                                 <option value="person">Person</option>
                               </select>
                         </div>
                         <div class="desc">
                             <label>Retrieve Subject's Description:</label>
-                            <input type="text" placeholder="Enter Description" required>
+                            <input type="text" placeholder="Enter Description" id="FNote" name="FNote" required>
                         </div>
                         <div class="desc1">
                             <label>Retrieve Subject's Photo:</label>
-                            <input id="desc1" type="file" placeholder="Upload Photo" required>
+                            <input id="desc1" type="file" placeholder="Upload Photo">
                         </div>
                     </div>
 
-                    <button>
-                        <span class="btnText">Submit</span>
+                    <button >
+                        <span class="btnText" name="retrieve-submit">Submit</span>
                         <i class="uil uil-navigator"></i>
                     </button>
                 </div>
