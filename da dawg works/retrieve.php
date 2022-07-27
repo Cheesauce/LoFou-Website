@@ -15,7 +15,7 @@
     <div class="container">
         <header>Retrieve Form</header>
 
-        <form action="connect.php" action="post">
+        <form action="formconnect.php" action="post">
             <div class="first">
                 <div class="details">
                     <span class="title">Retrieve Subject's Details</span>

@@ -15,7 +15,7 @@
     <div class="container">
         <header>Submit Form</header>
 
-        <form action="connect.php" method="post">
+        <form action="formconnect.php" method="post">
             <div class="first">
                 <div class="details">
                     <span class="title">Lost Subject's Details</span>
@@ -61,7 +61,7 @@
                     </div>
 
                     <button>
-                        <input class="btnText" name="found-submit">Submit
+                        <span class="btnText" name="found-submit">Submit</span>
                         <i class="uil uil-navigator"></i>
                     </button>
                 </div>
