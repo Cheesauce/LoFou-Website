@@ -60,7 +60,7 @@
                         </div>
                     </div>
 
-                    <button >
+                    <button>
                         <input class="btnText" name="retrieve-submit">Submit
                         <i class="uil uil-navigator"></i>
                     </button>

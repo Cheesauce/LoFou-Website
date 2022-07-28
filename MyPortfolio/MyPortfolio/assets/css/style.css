@@ -236,7 +236,7 @@ h1, h2, h3, h4, h5, h6, .font-heading {
 /* Contact Form */
 .php-email-form .error-message {
   display: none;
-  color: #fff;
+  color: #fff;  
   background: #ed3c0d;
   text-align: left;
   padding: 15px;
