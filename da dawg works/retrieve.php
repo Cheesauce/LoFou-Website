@@ -15,7 +15,7 @@
     <div class="container">
         <header>Retrieve Form</header>
 
-        <form action="connect.php" action="post">
+        <form action="connect.php" method= "POST">
             <div class="first">
                 <div class="details">
                     <span class="title">Retrieve Subject's Details</span>
@@ -61,7 +61,7 @@
                     </div>
 
                     <button >
-                        <span class="btnText" name="retrieve-submit">Submit</span>
+                        <input class="btnText" name="retrieve-submit">Submit
                         <i class="uil uil-navigator"></i>
                     </button>
                 </div>
