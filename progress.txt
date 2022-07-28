@@ -19,7 +19,7 @@ File: da dawg works\submit.php
 changes: added a name for div part in form clause
 
 File: da dawg works\connect.php
-changes: made a php file for getting info from submit.php form
+changes: made a php file for getting info from submit.php and retrieve.php form
 --------------------------------------------------------------
 Emman
 July 27, 2022
