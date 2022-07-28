@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="style_r.css">
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
 
-    <title>Submit Form</title>
+    <title>Retrieve Form</title>
 
 </head>
 <body>

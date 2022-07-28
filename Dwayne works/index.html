@@ -49,8 +49,8 @@
 						<span class="symbol-input100">
 							<i class="fa fa-lock" aria-hidden="true"></i>
 						</span>
-						<span class="symbol-input300">
-							<i class="fa fa-eye-slash" id="togglePassword" style="margin-left: 210px; cursor: pointer;"></i>
+						<span>
+							<i class="fa fa-eye" id="togglePassword" style="margin-left: 210px; cursor: pointer;"></i>
 						</span>
 					</div>
 
@@ -64,7 +64,7 @@
     								const type = password.getAttribute('type') === 'password' ? 'text' : 'password';
     								password.setAttribute('type', type);
     								// toggle the eye slash icon
-    								this.classList.toggle('fa-eye');
+    								this.classList.toggle('fa-eye-slash');
 									});
 						</script>
 					</div>
