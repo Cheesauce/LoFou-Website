@@ -1,0 +1,29 @@
+***Before you start coding, please sync first to 'source control' then you can proceed coding.***
+
+After you code, please add here the progress you made. The format is as follows:
+
+Name:
+Date you code:
+file: (you can right click the file and select 'copy path')
+changes:
+
+
+Thank you for your cooperation have a great day!
+
+
+--------------------------------------------------------------
+Denne 
+July 26, 2022
+
+File: da dawg works\submit.php
+changes: added a name for div part in form clause
+
+File: da dawg works\connect.php
+changes: made a php file for getting info from submit.php and retrieve.php form
+--------------------------------------------------------------
+Emman
+July 27, 2022
+
+File:\Lofou\da dawg works\leaderboard.html
+changes: added a few button, fixed the responsiveness of the table
+------------------------------------------------------------------
