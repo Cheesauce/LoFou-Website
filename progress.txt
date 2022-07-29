@@ -34,6 +34,6 @@ File: \LoFou\account-settings\index.html
 July 25, 2022 - Added Poppins font to css and hover animation for tabs.
 File: \LoFou\account-settings\style.css
 
-July 29, 2022 - Changed icon to default.
+July 29, 2022 - Changed icon to default. changed Student's name -> User's Name
 Files: \Lofou\account-settings\index.html
         \Lofou\account-settings\style.css
