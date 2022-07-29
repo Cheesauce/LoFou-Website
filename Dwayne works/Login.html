@@ -9,10 +9,18 @@
     <title>Lofou Login</title>
 </head>
 <body>
-    <div class="img">
-        <img src="./image/logo_main.png" width="550" height="400">
+
+    <!-- this section is a container -->
+    <section class="container-login">
+
+    <!-- this is the logo -->
+    <div class="logo_main">
+        <img src="./image/logo_main.png">
     </div>
+
+    <!-- login box -->
     <div class="form-box">
+    
         <h1>Login Your Account</h1>
         <div class="input-box">
             <i class="fa fa-envelope"></i>
@@ -46,7 +54,11 @@
             </div>
         </div>
     </div>
-        <script>
+    </section> 
+    
+    
+    <!-- this is the password eye function -->
+    <script>
             function myFunction() {
                 var x = document.getElementById("InputPass");
                 var y = document.getElementById("hide-eye");
@@ -63,6 +75,6 @@
                     z.style.display = "block";
                 }
             }
-        </script>
+    </script>
 </body>
 </html>
