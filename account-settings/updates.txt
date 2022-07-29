@@ -1,0 +1,9 @@
+
+July 17 2022 - Updated Accounts Page -> Removed unneeded tab + readjusted typebox information.
+
+July 25, 2022 - Added Poppins font to css and hover animation for tabs.
+
+
+
+
+

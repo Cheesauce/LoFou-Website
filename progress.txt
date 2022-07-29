@@ -27,3 +27,13 @@ July 27, 2022
 File:\Lofou\da dawg works\leaderboard.html
 changes: added a few button, fixed the responsiveness of the table
 ------------------------------------------------------------------
+JJ
+July 17 2022 - Updated Accounts Page -> Removed unneeded tab + readjusted typebox information.
+File: \LoFou\account-settings\index.html
+
+July 25, 2022 - Added Poppins font to css and hover animation for tabs.
+File: \LoFou\account-settings\style.css
+
+July 29, 2022 - Changed icon to default.
+Files: \Lofou\account-settings\index.html
+        \Lofou\account-settings\style.css
