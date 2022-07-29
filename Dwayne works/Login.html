@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style_login.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+    <title>Lofou Login</title>
+</head>
+<body>
+    <div class="form-box">
+        <h1>Login Your Account Here</h1>
+        <div class="input-box">
+            <i class="fa fa-envelope"></i>
+            <input type="email" placeholder="User/Email">
+        </div>
+        <div class="input-box">
+            <i class="fa fa-key"></i>
+            <input type="password" id="InputPass" placeholder="Password">
+            <span class="eye" onclick="myFunction()">
+            <i class="fa fa-eye" id="hide-eye"></i>
+            <i class="fa fa-eye-slash" id="hide-slash"></i>
+            </span>
+        </div>
+        <button type="button" class="login-button">
+            Sign In
+        </button>
+    </div>
+        <script>
+            function myFunction() {
+                var x = document.getElementById("InputPass");
+                var y = document.getElementById("hide-eye");
+                var z = document.getElementById("hide-slash");
+
+                if(x.type === 'password'){
+                    x.type = "text";
+                    y.style.display = "block";
+                    z.style.display = "none";
+                }
+                else{
+                    x.type = "password";
+                    y.style.display = "none";
+                    z.style.display = "block";
+                }
+            }
+        </script>
+</body>
+</html>
