@@ -37,3 +37,6 @@ File: \LoFou\account-settings\style.css
 July 29, 2022 - Changed icon to default. changed Student's name -> User's Name
 Files: \Lofou\account-settings\index.html
         \Lofou\account-settings\style.css
+
+July 30, 2022 - Added upload image for profile icon.
+File: Lofou\account-settings\index.html
