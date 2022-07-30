@@ -68,6 +68,8 @@ a.active,a:hover{
     transition: .5s;
 }
 
+
+
 table{
     width: 100%;
     color: black;
@@ -136,7 +138,6 @@ table img{
     .container ::-webkit-scrollbar{
        display: none;
     }
-  
 }
     
    
