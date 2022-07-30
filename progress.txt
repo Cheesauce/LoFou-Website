@@ -37,3 +37,10 @@ File: \LoFou\account-settings\style.css
 July 29, 2022 - Changed icon to default.
 Files: \Lofou\account-settings\index.html
         \Lofou\account-settings\style.css
+------------------------------------------------------------------
+Emman
+July 30, 2022
+
+File:\Lofou\da dawg works\leaderboard.html
+changes: change the button into a list navbar, having trouble in making it responsive.
+------------------------------------------------------------------
