@@ -44,3 +44,9 @@ July 30, 2022
 File:\Lofou\da dawg works\leaderboard.html
 changes: change the button into a list navbar, having trouble in making it responsive.
 ------------------------------------------------------------------
+Emman
+August 1, 2022
+
+File:C:\Users\user\Desktop\Lofou\da dawg works\about.html,C:\Users\user\Desktop\Lofou\da dawg works\style_a.css
+changes: started the about page, on going and the responsiveness is good.
+------------------------------------------------------------------
