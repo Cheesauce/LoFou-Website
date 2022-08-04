@@ -50,3 +50,9 @@ August 1, 2022
 File:C:\Users\user\Desktop\Lofou\da dawg works\about.html,C:\Users\user\Desktop\Lofou\da dawg works\style_a.css
 changes: started the about page, on going and the responsiveness is good.
 ------------------------------------------------------------------
+Emman
+August 4, 2022
+
+File:C:\Users\user\Desktop\Lofou\da dawg works\about.html,C:\Users\user\Desktop\Lofou\da dawg works\style_a.css
+changes: about page is 95% complete with 100% responsiveness.
+------------------------------------------------------------------
