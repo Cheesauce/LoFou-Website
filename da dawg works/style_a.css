@@ -63,3 +63,12 @@ p{
         text-align: center;
     }
 }
+
+@media (max-width: 223px){
+    .cont1{
+        height: 150vh;
+    }
+    .cont2{
+        height: 150vh;
+    }
+}
