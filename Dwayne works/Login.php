@@ -25,41 +25,42 @@
     </div>
 
     <!-- login box -->
-    <div class="form-box">
+    <section class="form-box">
     
-        <h1>Login Your Account</h1>
-        <div class="input-box">
-            <i class="fa fa-envelope"></i>
-            <input type="email" placeholder="User/Email">
-        </div>
-        <div class="input-box">
-            <i class="fa fa-key"></i>
-            <input type="password" id="InputPass" placeholder="Password">
-            <span class="eye" onclick="myFunction()">
-            <i class="fa fa-eye" id="hide-eye"></i>
-            <i class="fa fa-eye-slash" id="hide-slash"></i>
-            </span>
-        </div>
-        <button type="button" class="login-button">
-            Sign In
-        </button>
-        <div class="txt1">
-            <span>
-                <br> Forget
-            </span>
-            <a class="txt1" href="#">
-                Username/Password?
-            </a>
-        </div>
-        <div>
+        <form action="../da dawg works/connect.php" method= "POST">
+            <h1>Login Your Account</h1>
+            <div class="input-box">
+                <i class="fa fa-envelope"></i>
+                <input type="email" placeholder="User/Email" id="Username" name="Username" >
+            </div>
+            <div class="input-box">
+                <i class="fa fa-key"></i>
+                <input type="password" id="InputPass" placehol  der="Password" id="Password" name="Password">
+                <span class="eye" onclick="myFunction()">
+                <i class="fa fa-eye" id="hide-eye"></i>
+                <i class="fa fa-eye-slash" id="hide-slash"></i>
+                </span>
+            </div>
+            <button class="login-button">
+                <input type="hidden" class="btnText" name="login-button">Sign In
+            </button>
             <div class="txt1">
+                <span>
+                    <br> Forget
+                </span>
                 <a class="txt1" href="#">
-                    <br> Create your Account
-                    <i class="fa fa-long-arrow-right m-l-5"></i>
+                    Username/Password?
                 </a>
             </div>
-        </div>
-    </div>
+            <div>
+                <div class="txt1">
+                    <a class="txt1" href="#">
+                        <br> Create your Account
+                        <i class="fa fa-long-arrow-right m-l-5"></i>
+                    </a>
+                </div>
+            </div>
+        </form>
     </section> 
     
     
