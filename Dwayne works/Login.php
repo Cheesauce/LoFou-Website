@@ -35,7 +35,7 @@
             </div>
             <div class="input-box">
                 <i class="fa fa-key"></i>
-                <input type="password" id="InputPass" placehol  der="Password" id="Password" name="Password">
+                <input type="password" id="InputPass" placeholder="Password" name="Password">
                 <span class="eye" onclick="myFunction()">
                 <i class="fa fa-eye" id="hide-eye"></i>
                 <i class="fa fa-eye-slash" id="hide-slash"></i>

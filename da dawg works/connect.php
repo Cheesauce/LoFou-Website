@@ -1,26 +1,42 @@
 <?php
 
-
-//      for login.php      //
-if (isset($_POST['login-button'])) {
+// if user already have an account //
+if (isset($_POST['Username']) && isset($_POST['Password'])) {
     $conn = mysqli_connect('localhost','root','','forms');
 
-    if($conn === false){
-        die('Connection Failed : '.mysqli_connect_error());
-    }
-    
     $Username = $_POST['Username'];
     $Password = $_POST['Password'];
-    
-    
-    $sql = "INSERT INTO loginmain VALUES ('','$Username', '$Password')";
-    
-    if(mysqli_query($conn, $sql)){
-        include 'retrieve.php';
+
+    if (empty($Username)) {
+        header("Location: Login.php?error=Email is required");
     }
-    
-    mysqli_close($conn);
+    else if (empty($Password)) {
+        header("Location: Login.php?error=Password is required");
+    }
+    else {
+        echo "Good";
+    }
 }
+//      for login.php      //
+// if (isset($_POST['login-button'])) {
+//     $conn = mysqli_connect('localhost','root','','forms');
+
+//     if($conn === false){
+//         die('Connection Failed : '.mysqli_connect_error());
+//     }
+    
+//     $Username = $_POST['Username'];
+//     $Password = $_POST['Password'];
+    
+    
+//     $sql = "INSERT INTO loginmain VALUES ('','$Username', '$Password')";
+    
+//     if(mysqli_query($conn, $sql)){
+//         include 'retrieve.php';
+//     }
+    
+//     mysqli_close($conn);
+// }
 
 
 
