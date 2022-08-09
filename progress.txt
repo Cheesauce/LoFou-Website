@@ -40,3 +40,10 @@ Files: \Lofou\account-settings\index.html
 
 July 30, 2022 - Added upload image for profile icon.
 File: Lofou\account-settings\index.html
+------------------------------------------------------------------
+Emman
+July 30, 2022
+
+File:\Lofou\da dawg works\leaderboard.html
+changes: change the button into a list navbar, having trouble in making it responsive.
+------------------------------------------------------------------
