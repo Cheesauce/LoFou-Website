@@ -27,13 +27,18 @@ body {
 }
 
 .tab-content {
-	flex: 1;
+	flex: 1 1 1%;
 }
 
 .form-group {
 	margin-bottom: 1.5rem;
 }
 
+.form-control{
+	flex: auto;
+	border-radius: 25px;
+	border: 2px solid #cc4040ee;
+}
 .nav-pills a.nav-link {
 	padding: 15px 20px;
 	border-radius: 0;
@@ -56,5 +61,12 @@ body {
 }
 
 .nav-pills .nav-link.active, .nav-pills .show>.nav-link{
-    background-color: rgba(250, 51, 51, 0.897)!important;
+    background-color: #fa3333e5!important;
+}
+
+.btn-primary {
+	background-color: #fa3333e5;
+	border: none;
+	color: #fff;
+
 }
