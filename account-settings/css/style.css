@@ -5,6 +5,19 @@ body {
 	font-family: "Poppins";
 }
 
+.pt-5, my-5{
+	padding-top: 0rem!important;
+}
+.pb-5, py-5{
+	padding-bottom: 2rem!important;
+}
+.mt-5, .my-5 {
+    margin-top: 0rem!important;
+}
+.mb-5, .my-5 {
+	margin-bottom: 2rem!important;
+}
+
 .shadow {
 	box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1) !important;
 }
@@ -14,13 +27,18 @@ body {
 }
 
 .tab-content {
-	flex: 1;
+	flex: 1 1 1%;
 }
 
 .form-group {
 	margin-bottom: 1.5rem;
 }
 
+.form-control{
+	flex: auto;
+	border-radius: 25px;
+	border: 2px solid #cc4040ee;
+}
 .nav-pills a.nav-link {
 	padding: 15px 20px;
 	border-radius: 0;
@@ -40,4 +58,15 @@ body {
 	width: 100px;
 	border-radius: 100%;
 	border: 5px solid #fff;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link{
+    background-color: #fa3333e5!important;
+}
+
+.btn-primary {
+	background-color: #fa3333e5;
+	border: none;
+	color: #fff;
+
 }
