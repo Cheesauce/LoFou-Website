@@ -1,36 +1,118 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>LoFou: Lost and Found Philippines</title>
-    <link rel="stylesheet" href="./style.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LoFou- Home</title>
+  <link rel="icon" type="image/x-icon" href="./lofou-logo.svg">
+  <link rel="stylesheet" href="./style.css">
 </head>
+
 <body>
-    <!-- Navigation Area -->
-    <nav class="nav-main">
-        <div>
-            <a href="./index.html"><img src="./lofou-logo.svg" alt="lost and found logo"></a> 
-            <a href="">home</a> 
-            <a href="">lost form</a>
-            <a href="">found form</a>
-            
-        </div>
+
+  <!-- navigation bar + menu area -->
+  <nav>
+    <a href="./index.html"><img id="logo-header" src="./lofou-logo.svg" alt="lost and found logo"></a>
+    <ul class="nav-header">
+      <li class="btn active"> <a href="./index.html"></a>Home </li>
+      <li class="btn"> <a href="#"></a>Lost Form </li>
+      <li class="btn"> <a href="#"></a>Found Form </li>
+      <input id="searchbar" type="text" placeholder="search lost item..." >
+    </ul>
+    <div id="menu-button"><i class="fa-solid fa-bars"></i></div>
+  </nav>
+
+  <!-- card container -->
+  <main>
+    <h1>Hello User!</h1>
+    <h5>This platform can be use to post lost items and retrieve found items.</h5>
+
+    <nav class="header-lost">
+      <div>All Category</div>
+      <div id="category-cont">
         
-        <a href="">menu</a>
+        <label for="category">Select Type:</label>
+        <select name="category" id="category">
+          <option value="items">All Category</option>
+          <option value="device">Device</option>
+          <option value="object">Object</option>
+          <option value="animal">Animal</option>
+          <option value="Person">Person</option>
+        </select> 
+
+      </div>
     </nav>
 
-    <!-- Main Area // Lost Cards -->
-    <!-- <section class="lost-table">lost table</section> -->
+    <!-- lost cards -->
+    <section class="card-section">
+      <div>1</div>
+      <div>2</div>
+      <div>3</div>
+      <div>4</div>
+      <div>5</div>
+      <div>6</div>
+      <div>7</div>
+      <div>8</div>
 
-    <!-- Feedback of Users -->
-    <section class="feedback">
-        <img src="" alt="">
-        <p id="quote"><blockquote></blockquote></p>
-        <p id="author"></p>
+      <!-- <div class="cards">
+        Object Name:
+        Date Lost:
+        Location Lost:
+        Owner Note:
+      </div> -->
     </section>
 
-    
+    <!-- graph area -->
+
+    <div class="cont-below">
+      <section class="graph">
+        <h1>Number of successful retrieve items in the past month</h1>
+        <img src="./basic-bar-graph.png" alt="graph image sample">
+      </section>
+  
+      <!-- forms area -->
+      <div class="forms">
+
+        <!-- make this a button -->
+        <h1>forms available here!</h1>
+        <div id="lostf" ><a href="/da dawg works/submit.php"></a>lost form</div>
+        <div id="foundf" ><a href="/da dawg works/retrieve.php"></a>found form</div>
+      </div>
+  
+      <!-- feedback area -->
+      <section class="feedback">  
+        <img src="./nike-shoes.png" alt="sample feedback">
+        <p>"Thank you I got my Iphone 13 pro max back!"</p> 
+        <p><strong>- Juan Dela Cruz</strong> </p>
+      </section>
+
+      <!-- exam -->
+      <div>this is section area
+        <html>
+          <img src="/#1main-page/nike-shoes.png" alt="image to the top header">
+          <a href="#">click this link for more info</a>
+          <div> ewan ko bat ganto mga tao saa mundo
+            
+          </div>
+        </html>
+      </div>
+    </div>
+  </main>
+  
+
+  
+
+
+
+  <!-- icons used in the website is in here -->
+  <script src="https://kit.fontawesome.com/c183617ac5.js" crossorigin="anonymous"></script>
+
 </body>
+<footer>
+  <p>Thesis Project:</p>
+    <p id="developers"><strong>LOFOU TEAM</strong></p>
+    <p><em>&copy;Copyright 2022</em></p>
+    <p><em>All Rights Reserved, Powered by </em><strong>Mang Tomas</strong></p>
+</footer>
 </html>

@@ -1,0 +1,396 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#paragraph{
+    display: inline-block;
+    width: 500px;
+}
+
+
+#sub{
+background-color: rgb(212, 9, 9);
+border: none;
+text-transform: uppercase;
+color: white;
+width: 120px;
+height: 40px;
+border-radius: 3px;
+transition: opacity .15s;
+}
+
+#sub:hover{
+    opacity: .8;
+}   
+
+#sub:active{
+    opacity: .4;
+}
+
+#join{
+background-color: white;
+border: 1px solid rgb(9, 113, 173);
+color: rgb(9, 113, 173);
+text-transform: uppercase;
+width: 60px;
+height: 40px;
+border-radius: 2px;
+transition: background-color .15s, color .15s;
+}
+
+#join:hover{
+    border: 1px solid rgb(8, 160, 248);
+    background-color: rgb(8, 160, 248);
+    color: white;
+}
+
+#join:active{
+    opacity: .75;
+}
+
+#tweet{
+color: white;
+background-color: rgb(5, 144, 224);
+text-transform: capitalize;
+border: none;
+width: 75px;
+height: 39px;
+border-radius: 20px;
+font-weight: 600;
+transition: box-shadow .15s;
+}
+
+#tweet:hover{
+    box-shadow: 1px 2px 6px rgb(175, 170, 170);
+}
+
+#tweet:active{
+    opacity: .75;
+}
+/* exercise 2.0 */
+
+button{
+    margin: 10px;
+    white-space: nowrap;
+}
+
+#Uber{
+    color: white;
+    background-color: black;
+    padding: 10px 15px 10px 15px;
+    font-size: .7em;
+    border: none;
+    transition: opacity .15s;
+}
+
+#Uber:hover{
+    cursor: pointer;
+    opacity: .8;
+}
+
+#Amazon{
+    color: black;
+    background-color: rgb(255, 216, 20);
+    border-radius: 20px;
+    border: none;
+    padding: 8px 40px 8px 40px;
+    transition: background-color .15s;
+}
+
+#Amazon:hover{
+    cursor: pointer;
+    background-color: rgb(243, 204, 10);
+}
+
+#Github{
+    color: white;
+    font-weight: bold;
+    background-color: rgb(46, 164, 79);
+    border-radius: 5px;
+    border: none;
+    padding: 8px 18px 10px 18px;
+    transition: box-shadow .15s;
+}
+
+#Github:hover{
+    cursor: pointer;
+    box-shadow: 1px 3px 8px rgb(196, 196, 196);
+}
+
+#getstarted{
+    color: white;
+    background-color: rgb(121, 82, 179);
+    font-weight: bold;
+    border: none;
+    padding: 12px 20px 12px 20px;
+    border-radius: 3px;
+    font-size: .7em;
+    transition: background-color .15s;
+}
+
+#getstarted:hover{
+    cursor: pointer;
+    background-color:rgb(97, 61, 151);;
+}
+
+#Download{
+    color: rgb(108, 117, 125);
+    background-color: white;
+    border: 1px solid rgb(108, 117, 125);
+    border-radius: 3px;
+    font-weight: bold;
+    padding: 10px 15px 10px 15px;
+    font-size: .71em;
+    transition: background-color .15s, color .15s;
+}
+
+#Download:hover{
+    cursor: pointer;
+    background-color: rgb(108, 117, 125);
+    color: white;
+}
+
+#Apply{
+    color: white;
+    background-color: rgb(10, 102, 194);
+    border-radius: 20px;
+    font-weight: bold;
+    border: none;
+    padding: 10px 21px 10px 21px;
+    transition: background-color .15s;
+}
+
+#Apply:hover{
+    cursor: pointer;
+    background-color: rgb(6, 80, 153);;
+}
+
+#save{
+    color: rgb(45, 88, 204);
+    background-color: white;
+    font-weight: bold;
+    border-radius: 20px;
+    border: 1px solid rgb(45, 88, 204);
+    padding: 10px 20px 10px 20px;
+    transition: border-width .15s,
+        background-color .15s;
+}
+
+#save:hover{
+    cursor: pointer;
+    background-color: rgb(226, 240, 254);
+    border-width: 2px;
+}
+
+/* challenge exercise 2 */
+
+#amazon-link{
+    color: rgb(1, 73, 61);
+    font-family: serif;
+    text-decoration: 1px solid rgb(1, 73, 61);
+    transition: color .15s;
+}
+
+#amazon-link:hover{
+    color: brown;
+}
+
+#product-name{
+    font-family: serif;
+}
+
+#price{
+    font-family: serif;
+    font-weight: bold;
+    color: rgb(1, 129, 1);
+}
+
+#description{
+    font-family: serif;
+    margin-bottom: 5px;
+}
+
+#add-to-cart{
+    margin-left: 0;
+    border: none;
+    border-radius: 20px;
+    background-color: rgb(243, 200, 7);
+    color: black;
+    padding: 8px 25px;
+    margin-right: 5px;
+    transition: opacity .15s,
+    background-color .15s;
+}
+
+#add-to-cart:hover{
+    background-color:rgb(221, 181, 2);
+}
+#add-to-cart:active{
+    opacity: .75;
+}
+
+#buy-now{
+    border: none;
+    border-radius: 20px;
+    background-color: rgb(233, 140, 0);
+    color: black;
+    padding: 8px 25px;
+    margin-left: 0;
+    transition: opacity .15s,
+    background-color .15s;
+}
+
+#buy-now:hover{
+    background-color: rgb(207, 126, 4);
+}
+#buy-now:active{
+    opacity: .75;
+}
+
+.amazon-container{
+    display: inline-block;
+    margin: 20px;
+    border: 1px solid black;
+    padding: 30px;
+    width: fit-content;
+    font-size: 18px;
+    box-shadow: 2px 2px rgb(175, 175, 175, 0.6);
+}
+
+#shoes{
+    margin: 5px;
+    width: 250px;
+}
+
+
+/* exercise 4 */
+
+.h41 button{
+    border: 1px solid;
+    border-radius: 3px;
+    padding: 8px 10px;
+    font-weight: bold;
+}
+
+.links{
+    display: inline-flex;
+    justify-content: flex-start;
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.links li{
+    
+    margin: 5px 5px;
+    padding: 0;
+}
+
+.h42{
+    margin-bottom: 50px;
+    background-color: green;
+    color: white;
+    font-weight: bold;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: padding 1s;
+}
+
+.h42:hover{
+    padding: 50px;
+}
+
+.h43{
+    cursor: pointer;
+    background-color: green;
+    color: white;
+    font-weight: bolder;
+    border: none;
+    padding: 8px 13px;
+    box-shadow: 2px 2px 4px rgba(146, 146, 146, 0.705);
+
+}
+
+.h43:active{
+    box-shadow: none;
+}
+
+
+.h44 button{
+    margin: 50px 10px;
+    background-color: green;
+    color: white;
+    font-weight: bolder;
+    border: none;
+    padding: 8px 15px;
+    transition: padding .30s, margin .30s;
+
+}
+
+.h44 button:hover{
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+
+/* images and search buttons */
+.image1{
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+
+.input1{
+    margin: 0 10px;
+    border: none;
+    border-radius: 20px;
+    height: 25px;
+    vertical-align: middle;
+    
+}
+
+.twit-cont{
+    display: block;
+}
+
+.tweet1{
+    background-color:rgb(5, 144, 224);
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 8px 13px;
+    font-weight: bold;
+    margin: 1px;
+    transition: background-color .15s;
+    vertical-align: middle;
+}
+
+.tweet1:hover{
+    background-color:rgb(9, 128, 197);
+    
+}
+
+.tweet1:active{
+    background-color:rgb(10, 152, 235);
+}
+
+.input2{
+    margin: 0;
+
+}
+
+
+
+
+#sample1{
+    display: inline-block;
+    margin-top:400px;
+    border: 1px solid black;
+    text-align: center;
+    padding: 30px;
+}
