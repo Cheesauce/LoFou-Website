@@ -144,15 +144,16 @@ h1{
 @media (max-width: 767px){
     body{
         background: linear-gradient(0deg, rgba(202,56,207,1) 0%, rgba(0,212,255,1) 100%);
+        height: 100%;
     }
     .container-login{
         margin: 0% 3% 0% 3%;
-        display: inline-block;
+        display: block;
         align-items: center;
         justify-content: space-around;
     }
-    .logo_main{
-        width: 20vh;
+    .logo_main img{
+        width: 40vh;
     }
 }
 
